@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Indice de Lee</string>
+    <string name="riesgo">Riesgo Cardiológico en\nCirugía no Cardíaca</string>
+    <string name="cirugiaDeRiesgo">Cirugía intraperitoneal\nCirugía intratorácica\nCirugía vascular\nsuprainguinal</string>
+    <string name="cardiopatiaIsquemica">Historia de Cardiopatía Isquémica</string>
+    <string name="cardipatiaDetalles">Infarto\nErgometría positiva\nSospecha de angor\nUso de nitritos\nOndas Q en ECG</string>
+    <string name="historiaIC">Historia de IC</string>
+    <string name="historiadeICdetalles">IC\nEdema pulmonar\nDP nocturna\nEstertores bilaterales o S3\nRedistribución pulmonar\nen Rx</string>
+    <string name="historiaACV">Historia de enfermedad\ncerebrovascular</string>
+    <string name="historiaACVdetalles">AIT o ACV</string>
+    <string name="tratamientoInsulina">Tratamiento preoperatorio con Insulina</string>
+    <string name="creatinina">Creatinina mayor de 2mg/dl</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="eventos">Riesgo </string>
+    <string name="tituloAlerta">Riesgo cardiovascular</string>
+    <string name="claseI">clase I - 0.4%</string>
+    <string name="claseII">clase II - 0.9%</string>
+    <string name="claseIII">clase III - 6.6%</string>
+    <string name="claseIV">clase IV - 11%</string>
+    <string name="cirugiaAR">Cirugía de\nalto riesgo</string>
+    <string name="strAcerca">Acerca de…</string>
+    <string name="AcercaJoseRa">\@JoseRa\nSeptiembre 2016\nquistabenasque@gmail.com</string>
+
+</resources>

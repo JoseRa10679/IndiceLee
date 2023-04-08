@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools">
+<TableLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    tools:context="com.benasque.quista.jr.indicelee.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:background="@color/colorNaranja"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/riesgo"
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorBlanco"
+            android:baselineAligned="false"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:paddingRight="10dp"
+                android:text="@string/cirugiaAR"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:text="@string/cirugiaDeRiesgo"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorBlanco"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxCI"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:maxLines="2"
+                android:text="@string/cardiopatiaIsquemica"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/cardipatiaDetalles"
+                android:textSize="12sp"/>
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorBlanco"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <CheckBox
+                android:id="@+id/checkBoxIC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:text="@string/historiaIC"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/historiadeICdetalles"
+                android:textSize="12sp"/>
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorBlanco"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxACV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="0"
+                android:maxLines="2"
+                android:paddingRight="10dp"
+                android:text="@string/historiaACV"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:text="@string/historiaACVdetalles"
+                android:textSize="12sp"
+                />
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorBlanco"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxInsulina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tratamientoInsulina"
+                android:textSize="14sp"/>
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorBlanco"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkBoxCreatinina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/creatinina"
+                android:textSize="14sp"/>
+        </TableRow>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/btnaceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/myboton"
+                android:text="@string/calcular"
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle"/>
+
+            <Button
+                android:id="@+id/btnlimpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/mybotonl"
+                android:text="@string/limpiar"
+                android:textColor="@color/colorBlanco"
+                android:textSize="16sp"
+                tools:ignore="ButtonStyle"/>
+        </TableRow>
+    </TableRow>
+
+</TableLayout>
+</ScrollView>
