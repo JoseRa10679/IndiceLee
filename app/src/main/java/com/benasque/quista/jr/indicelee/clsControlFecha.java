@@ -14,7 +14,6 @@ import java.util.Locale;
  * **********************************************************************************************
  * Esta clase tiene un metodo compartido que permite comprobar si un
  * programa está pasado de fecha respecto a una fecha concreta y la fecha actual
- *
  * ********************************************************************************************
  */
 class clsControlFecha {
@@ -51,10 +50,6 @@ class clsControlFecha {
                 ((MainActivity)ctx).finish();
                 dialog.cancel();
             });
-            /*
-            Dialog dialog = miAlerta.create();
-            dialog.show();
-            */
             miAlerta.show();
         }
     }

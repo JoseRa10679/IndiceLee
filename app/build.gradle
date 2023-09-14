@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.benasque.quista.jr.indicelee"
         minSdkVersion 21
-        targetSdkVersion 33
+        //targetSdkVersion 33
         versionCode 1
         versionName "1.0"
     }
@@ -17,6 +17,11 @@ android {
         }
     }
     namespace 'com.benasque.quista.jr.indicelee'
+
+    //    Activa el viewBinding
+    android.buildFeatures.viewBinding = true
+
+
 }
 
 dependencies {
@@ -26,7 +31,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
 
     //noinspection GradleCompatible,GradleCompatible,GradleCompatible,GradleCompatible
-    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:design:28.0.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
